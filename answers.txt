@@ -1,0 +1,22 @@
+1. If a dating app wanted to expand into rural India, which insights from this dataset 
+would be most valuable? 
+
+Lower Engagement: Rural users may have lower daily usage times compared to urban users.
+Limited Multi-App Usage: Rural users are less likely to use multiple dating apps, indicating a preference for all-in-one solutions.
+Feature Adaptation: Apps should focus on lightweight design, offline access, and vernacular language support.
+Marketing Strategy: Target younger demographics and introduce community-based features to drive engagement.
+
+
+2. If you were designing a new dating app based on this data, what two features would 
+you add? 
+
+AI-Powered Match Recommendations – Use machine learning to suggest compatible matches based on user preferences, past interactions, and demographics.
+Community-Based Features – Introduce location-based discussion forums or interest groups to enhance social engagement beyond one-on-one connections.
+
+
+3. What were the biggest data cleaning challenges in this dataset? 
+
+Handling Missing Values – Several columns had missing data, requiring imputation with "unknown" to maintain dataset integrity.
+Categorical Standardization – Gender and location labels had inconsistencies in spelling and case, needing standardization.
+Outlier Detection – Extreme values in "Daily Usage Time" and "Age" required identification and treatment.
+Duplicate Rows – Some records were duplicated, likely due to data collection issues, and needed removal.
