@@ -40,7 +40,33 @@ This dataset contains survey responses from GenZ individuals regarding their app
 6. **Outlier Detection:**
    - Checked `Age`, `Satisfaction`, and `Daily_Usage_Time` using the IQR method. No extreme outliers were found.
 
-## Collaboration & Versioning
+## Exploratory Data Analysis (EDA)
 
-- The dataset and documentation are tracked using GitHub.
-- Changes are committed with meaningful messages for version control.
+### Key Findings:
+
+- **Gender Differences:** Certain dating apps were more popular among specific genders.
+- **Age-Based Trends:** Users aged 18-24 spent the most time on dating apps.
+- **Urban vs. Rural Patterns:** Urban users showed higher engagement compared to rural users.
+- **Multiple App Usage:** A significant number of users were active on multiple dating apps.
+
+## Feature Engineering
+
+- **Encoded categorical variables** using Label Encoding.
+- **Normalized numerical variables** using MinMaxScaler.
+- **Created `Active_App_Count` feature** based on the number of apps used per user.
+
+## Future Improvements
+
+- Incorporate geospatial analysis if location data is more detailed.
+- Analyze the impact of user satisfaction on engagement levels.
+- Consider time-series modeling to observe trends over different periods.
+
+## GitHub Workflow
+
+- **Branching:** `feature-EDA` was created for exploratory analysis.
+- **Pull Requests:** Opened for team feedback before merging.
+- **Final Merge:** All analysis and feature engineering updates were merged into `main`.
+
+## Summary
+
+This project provides insights into Gen-Z dating behavior and prepares the dataset for predictive modeling. The structured documentation ensures ease of collaboration and future extensions.
